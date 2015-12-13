@@ -34,7 +34,6 @@ html, body, .container-fluid {height: 100%;}
 .main {
   background-color: #C9C9DC;
   display: flex;
-  align-items: center;
 }
 
 .side {
@@ -43,18 +42,85 @@ html, body, .container-fluid {height: 100%;}
 }
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 991px) {
   .nav {
     display: none;
   }
   .dropdown{
     display: block;
     align-self: flex-start;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
   }
+  .box {
+    min-height: 40%;
+  }
+  .side{
+    max-height: 50%;
+  }
+
+  .main {
+    min-height: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 10vmax;
+    color: #2A375F;
+    margin-top: -10px;
+  }
+
+  .content {
+    width: 70%;
+    align-self: center;
+  }
+  .content p{
+    font-family: "Fira Sans",sans-serif;
+    font-weight: bold;
+    font-size: 6vmax;
+    color: #6D6D80;
+  }
+
+
+  .subtext {
+    display: none;
+  }
+
+  .clip-circle {
+    background:url('pawan.png') no-repeat;
+    background-size:480px 480px;
+    background-position:-160px 0px;
+    height: 480px;
+    width: 480px;
+    border: 10px solid #C9C9DC;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -125px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+
+  .smaller {
+    /*these are the override-ers*/
+    background-size:331px 240px;
+    background-position:-70px 0px;
+    height:240px;
+    width:240px;
+
+  }
+
+
+
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 992px) {
 
+    .main{
+      align-items: center;
+    }
     .nav{
       display: block;
     }
