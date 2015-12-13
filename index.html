@@ -6,75 +6,38 @@
   <meta name="description" content="Pawan Dubey | Home">
   <meta name="keywords" content="pawan, kumar, dubey, home">
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <style>
-    html, body, .container-fluid {height: 100%;}
-    .row {height: 100%; min-height: 100%;}
-    .box {min-height: 100%;}
-
-    .pattern {
-      background-image: url('pat.png');
-      background-repeat: repeat;
-    }
-
-    .shadow {
-      -webkit-box-shadow: inset 20px 0px 15px -8px rgba(0,0,0,0.5);
-      -moz-box-shadow: inset 20px 0px 15px -8px rgba(0,0,0,0.5);
-      box-shadow: inset 20px 0px 15px -8px rgba(0,0,0,0.5);
-    }
-
-    .container-fluid.full {padding-left: 0; padding-right: 0;}
-
-    .row.no-gutters {
-       margin-right: 0;
-       margin-left: 0;
-    }
-    .row.no-gutters > [class^="col-"],
-    .row.no-gutters > [class*=" col-"] {
-       padding-right: 0;
-       padding-left: 0;
-    }
-
-    .main {
-      background-color: #C9C9DC;
-      display: flex;
-      align-items: center;
-    }
-
-    .clip-circle {
-      background:url('/media/pawandubey/OS/Users/Mahe/Pictures/image3004.png') no-repeat;
-      background-size:480px 480px;
-      background-position:-160px 0px;
-      height: 480px;
-      width: 480px;
-      border: 10px solid #C9C9DC;
-      border-radius: 50%;
-      overflow: hidden;
-      align-self: center;
-      margin-left: -125px;
-    }
-
-    .smaller {
-      /*these are the override-ers*/
-      background-size:360px 240px;
-      background-position:-80px 0px;
-      height:240px;
-      width:240px;
-
-    }
   </style>
 </head>
 <body class="pattern">
 <div class="container-fluid full">
   <div class="row no-gutters">
-    <div class="col-sm-6 col-md-3 box">
-      <p></p>
+    <div class="col-sm-12 col-md-3 box side">
+      <div class="nav">
+        <ul>
+          <li><a class="btn btn-default btn-outline" href="https://blog.pawandubey.com"><i class="fa fa-file-text-o"></i> Blog</a></li>
+          <li><a class="btn btn-default btn-outline" href="https://github.com/pawandubey"><i class="fa fa-github"></i> Github</a></li>
+          <li><a class="btn btn-default btn-outline" href="https://twitter.com/thepawandubey"><i class="fa fa-twitter"></i> Twitter</a></li>
+          <li><a class="btn btn-default btn-outline" href="https://plus.google.com/+PawanDubeyK"><i class="fa fa-google-plus"></i> Google+</a></li>
+          <li><a class="btn btn-default btn-outline" href="https://in.linkedin.com/in/pawankdubey"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+          <li><a class="btn btn-default btn-outline" href="mailto:pawandubey@outlook.com"><i class="fa fa-envelope-o"></i> Mail</a></li>
+      </ul>
+      </div>
     </div>
 
-    <div class="col-sm-18 col-md-9 box main">
-      <p></p>
+    <div class="col-sm-12 col-md-9 box main">
       <div class="clip-circle smaller"></div>
+      <div class="content">
+        <p>Hi, I am</p>
+        <h1>Pawan Dubey</h1>
+        <p>
+          I am a programmer, quizzer, learner and student. Not particularly in that order.
+        </p>
+        <p class="subtext"> I <i class="fa fa-heart"></i> Java and Ruby. I am passionate about Open Source and making the world more fair by being more open. I also enjoy reading, writing and most of all, making things which solve real problems.</p>
+      </div>
     </div>
   </div>
 </div>
