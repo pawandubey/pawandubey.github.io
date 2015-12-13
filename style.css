@@ -114,7 +114,6 @@ html, body, .container-fluid {height: 100%;}
 }
 
 @media screen and (min-width: 992px) {
-
     .main{
       align-items: center;
     }
