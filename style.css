@@ -41,9 +41,6 @@ html, body, .container-fluid {height: 100%;}
   align-items: center;
 }
 
-i {
-  margin-right: 0.5em;
-}
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .nav {
