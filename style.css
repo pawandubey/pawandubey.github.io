@@ -49,7 +49,7 @@ html, body, .container-fluid {height: 100%;}
 .box {min-height: 100%;}
 
 .pattern {
-  background-image: url('pat.png');
+  background-image: url('pat-min.png');
   background-repeat: repeat;
 }
 
