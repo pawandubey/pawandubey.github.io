@@ -134,7 +134,7 @@ html, body, .container-fluid {height: 100%;}
   }
 
   .clip-circle {
-    background:url('pawan.png') no-repeat;
+    background:url('pawan-min.png') no-repeat;
     background-size:480px 480px;
     background-position:-160px 0px;
     height: 480px;
@@ -169,7 +169,7 @@ html, body, .container-fluid {height: 100%;}
     }
 
     .clip-circle {
-      background:url('pawan.png') no-repeat;
+      background:url('pawan-min.png') no-repeat;
       background-size:480px 480px;
       background-position:-160px 0px;
       height: 480px;
