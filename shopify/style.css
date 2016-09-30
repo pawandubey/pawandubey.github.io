@@ -1,0 +1,61 @@
+body {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #30373b; }
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .container:first-child {
+    margin-top: 10vh; }
+  .container:last-child {
+    margin-bottom: 10vh; }
+
+.row {
+  background-color: #dce0e8;
+  min-height: 50vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #7ab55c; }
+  .row .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -7.5vh;
+    color: #7ab55c; }
+    .row .header .heading {
+      color: #30373b;
+      font-family: 'Fira Sans', 'Open Sans', sans-serif;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bold; }
+  .row .content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #595c60;
+    width: 70%;
+    padding-bottom: 5vmax; }
+    .row .content p {
+      font-size: 20px; }
+      .row .content p a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #595c60; }
+        .row .content p a:visited, .row .content p a:hover, .row .content p a:active {
+          color: #595c60; }
+
+.first {
+  border-top: 10px solid #7ab55c; }
+
+.last {
+  border-bottom: 10px solid #7ab55c; }
+
+/*# sourceMappingURL=style.css.map */
