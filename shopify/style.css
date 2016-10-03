@@ -16,7 +16,6 @@ body {
 
 .row {
   background-color: #dce0e8;
-  min-height: 50vh;
   width: 80%;
   display: flex;
   flex-direction: column;
