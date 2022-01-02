@@ -162,6 +162,8 @@ html, body, .container-fluid {height: 100%;}
     }
     .nav{
       display: block;
+      align-self: center;
+      padding-left: 4rem;
     }
     .dropdown {
       display: none;
@@ -213,10 +215,6 @@ html, body, .container-fluid {height: 100%;}
       font-size: 6vmax;
       color: #2A375F;
       margin-top: -20px;
-    }
-
-    .nav {
-      align-self: center;
     }
 
     .nav ul {
